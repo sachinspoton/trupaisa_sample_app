@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/animation_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/fill_19" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:letterSpacing="-0.01"
+                android:lineSpacingExtra="5sp"
+                android:padding="30dp"
+                android:text="Thank you, your transaction was successful"
+                android:textColor="#f79a3e"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btn_next"
+                style="@style/Button_5"
+                android:layout_marginTop="30dp"
+                android:drawableEnd="@drawable/ic_arrow_right"
+                android:gravity="center"
+                android:text="Continue Shopping" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

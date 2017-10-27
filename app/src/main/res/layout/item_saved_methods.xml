@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="18dp">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:contentDescription="Menu Icon"
+        android:src="@drawable/ic_udhar_taken" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/iv_icon"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/FontMedium"
+            android:layout_width="wrap_content"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:maxLines="1"
+            android:text="Axis Bank (xxx 7820)"
+            android:textColor="@color/colorDarkTeal" />
+
+        <TextView
+            android:id="@+id/tv_type"
+            style="@style/FontSmall"
+            android:layout_width="wrap_content"
+            android:gravity="start"
+            android:text="Net Banking"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/cb_saved_methods"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/selector_checkbox" />
+</RelativeLayout>

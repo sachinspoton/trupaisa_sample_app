@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#056a7d</color>
+    <color name="colorPrimaryDark">#045463</color>
+    <color name="colorAccent">#e69807</color>
+    <color name="green">#a8c9cf</color>
+    <color name="color1">#0f859b</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorOrange">#e69807</color>
+    <color name="colorDarkTeal">#00363d</color>
+    <color name="colorGray">#8e8e8e</color>
+    <color name="colorDivider">#d0d0d0</color>
+    <color name="colorOtpError">#f46a6a</color>
+    <color name="colorGary1">#a9a9a9</color>
+    <color name="faint_white">#b4cdd2</color>
+    <color name="colorEditTextBorder">#3d7a85</color>
+    <color name="colorText1">#b4d1d7</color>
+    <color name="colorDrawerMenu">#3a3a3a</color>
+    <color name="colorUdharTransactionTitle">#393939</color>
+    <color name="colorUdharTransactionTitleFaint">#949494</color>
+    <color name="colorUdharTransactionDueDate">#cbb447</color>
+    <color name="colorUdharTransSubTitle">#a2a6ad</color>
+    <color name="colorUdharTransBottomSheet1">#898989</color>
+    <color name="colorFaintBlack">#181818</color>
+    <color name="colorDarkOrange">#c56b13</color>
+    <color name="colorLightOrange">#f0bb85</color>
+    <color name="colorDivider1">#1E7383</color>
+    <color name="colorEditTextBorder2">#e4e4e4</color>
+</resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                style="@style/FontMedium"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="Enter your card details" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorWhite"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <TextView
+                        style="@style/CardFontSmall"
+                        android:layout_marginTop="10dp"
+                        android:gravity="start"
+                        android:text="Card Number" />
+
+                    <EditText
+                        android:id="@+id/et_card_number"
+                        style="@style/CardEdtitText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:backgroundTint="@color/colorDivider"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPassword|number"
+                        android:maxLength="19"
+                        android:nextFocusDown="@+id/et_exp_month"
+                        android:textColor="@color/colorBlack" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/CardFontSmall"
+                                android:gravity="start"
+                                android:text="Expiration Date" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <EditText
+                                    android:id="@+id/et_exp_month"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:backgroundTint="@color/colorDivider"
+                                    android:hint="MM"
+                                    android:imeOptions="actionNext"
+                                    android:inputType="numberPassword"
+                                    android:maxLength="2"
+                                    android:nextFocusRight="@+id/et_exp_year"
+                                    android:textColorHint="@color/colorDivider" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="/" />
+
+                                <EditText
+                                    android:id="@+id/et_exp_year"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:backgroundTint="@color/colorDivider"
+                                    android:hint="YY"
+                                    android:imeOptions="actionNext"
+                                    android:inputType="numberPassword"
+                                    android:maxLength="2"
+                                    android:nextFocusRight="@+id/et_cvv"
+                                    android:textColorHint="@color/colorDivider" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/CardFontSmall"
+                                android:gravity="start"
+                                android:text="CVV" />
+
+                            <EditText
+                                android:id="@+id/et_cvv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="0dp"
+                                android:backgroundTint="@color/colorDivider"
+                                android:imeOptions="actionDone"
+                                android:inputType="numberPassword"
+                                android:maxLength="4"
+                                android:text="" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_scan"
+                        style="@style/ScanCardButton"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="@string/scan_your_card" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <Button
+                android:id="@+id/btn_pay"
+                style="@style/Button_5"
+                android:layout_marginTop="60dp"
+                android:drawableEnd="@drawable/ic_arrow_right"
+                android:gravity="center"
+                android:text="Pay 1500" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

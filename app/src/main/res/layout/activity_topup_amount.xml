@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                style="@style/FontMedium"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="@string/enter_your_amount" />
+
+            <EditText
+                android:id="@+id/et_amount"
+                style="@style/EditText_1"
+                android:layout_marginTop="30dp"
+                android:drawableStart="@drawable/ic_rs_topup"
+                android:hint="0.00"
+                android:inputType="numberDecimal" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/FontSmall"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/wallet_balance_" />
+
+                <TextView
+                    style="@style/FontSmall"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="134.00" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_next"
+                style="@style/Button_5"
+                android:layout_marginTop="60dp"
+                android:drawableEnd="@drawable/ic_arrow_right"
+                android:gravity="center"
+                android:text="@string/btn_next" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

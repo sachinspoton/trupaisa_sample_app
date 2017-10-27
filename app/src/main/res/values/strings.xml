@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">CfSample</string>
+    <string name="cyferpay">CyferPay</string>
+    <string name="topup_pay"><![CDATA[Topup & Pay]]></string>
+    <string name="hint_email">Email</string>
+    <string name="logo">Logo</string>
+    <string name="hint_password">Password</string>
+    <string name="txt_forgot_password">Forgot Password?</string>
+    <string name="txt_not_a_member_yet">Not a member yet?</string>
+    <string name="txt_do_not_have_account">Don\'t have an account?</string>
+    <string name="txt_sign_up">Sign Up</string>
+    <string name="btn_login">Sign In</string>
+    <string name="hint_phone">Phone</string>
+    <string name="info_otp">We will send you OTP to validate your phone no.</string>
+    <string name="info_password">Your password must be 8 character long.</string>
+    <string name="txt_register">Register</string>
+    <string name="info_register">Enter your account information</string>
+    <string name="btn_next">Next</string>
+    <string name="title_otp">We have sent you SMS with OTP, Please enter your OTP number here</string>
+    <string name="txt_resend_otp">Resend OTP</string>
+    <string name="hint_otp_number">OTP Number</string>
+    <string name="btn_submit">Submit</string>
+    <string name="txt_need_help">Need Help?</string>
+    <string name="hint_aadhar_number">Aadhar Number</string>
+    <string name="hint_name_adhar">Name as per Adhar</string>
+    <string name="hint_address">Address as per Aadhar</string>
+    <string name="hint_birth_year">Birth Year</string>
+    <string name="menu_aadhar_scan_qr">Scan QR</string>
+    <string name="menu_aadhar_enter_manually">Enter Manually</string>
+    <string name="txt_moble_verified">Thanks your mobile was verified successfully. \n Complete your profile here</string>
+    <string name="hint_create_password">Create Password</string>
+    <string name="txt_info_phone_number">Enter your phone number,\n we will send you an OTP to validate</string>
+    <string name="btn_send_otp">Send OTP</string>
+    <string name="txt_auto_detect">Trying to auto detect OTP</string>
+    <string name="cancel">Cancel</string>
+    <string name="txt_scan_aadhar">Place your Aadhar QR code \n  within the area</string>
+
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="dashboard">Dashboard</string>
+    <string name="udhar">Udhar</string>
+    <string name="incentives">Incentives</string>
+    <string name="transactions">Transactions</string>
+    <string name="network">Network</string>
+    <string name="txt_recent_transactions">RECENT TRANSACTIONS</string>
+    <string name="txt_udhar_transactions">UDHAR TAKEN FROM</string>
+    <string name="txt_otp_error">Unable to auto detect OTP</string>
+    <string name="txt_otp_progress">Trying to auto detect OTP</string>
+    <string name="members_network">Members Network</string>
+    <string name="support">Support</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="enter_your_card_details">Please enter your amount</string>
+    <string name="enter_your_amount">Please enter your amount</string>
+    <string name="wallet_balance_">Wallet Balance:</string>
+    <string name="scan_your_card">Scan Your Card</string>
+    <string name="saved_methods">Saved Methods</string>
+    <string name="other_payment_methods">Other Payment Methods</string>
+    <string name="add">Add</string>
+
+    <string name="title_activity_topup">Topup</string>
+    <string name="title_activity_payment_method">Select Payment Method</string>
+
+    <string-array name="birth_year">
+        <item>1980</item>
+        <item>1981</item>
+        <item>1982</item>
+        <item>1983</item>
+        <item>1984</item>
+    </string-array>
+    <string-array name="nav_horizontal_menu">
+        <item>@string/dashboard</item>
+        <item>@string/udhar</item>
+        <item>@string/incentives</item>
+        <item>@string/transactions</item>
+        <item>@string/network</item>
+    </string-array>
+
+    <string name="plz_wait">Please wait..</string>
+    <string name="txt_valid_password">Password should be 8 digit alphanumeric with minimum 1 special character</string>
+    <string name="your_wallet_balance">Your Wallet Balance: ₹134.00</string>
+
+    <string name="chirp_app_key">Xi5TPsypD9notsYmdqdGfue2d</string>
+    <string name="chirp_app_secret">okIux2LNqVUFPYpWELSz7sGNDj0rMuhycQJLmQvFEF4E4qdNoJ</string>
+</resources>
